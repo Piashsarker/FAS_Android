@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_control_panel"
+            android:icon="@mipmap/ic_control_panel"
+            android:title="Control Panel" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@mipmap/ic_report"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_user_log"
+            android:icon="@mipmap/ic_user_log"
+            android:title="User Log" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@mipmap/ic_exists"
+            android:title="Exits" />
+    </group>
+
+
+</menu>

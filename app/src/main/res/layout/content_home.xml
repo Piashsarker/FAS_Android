@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nextinnnovationsoft.com.finalyearproject.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout_control_panel"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/control_panel"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_control_panel"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:id="@+id/layout_report"
+            android:foreground="?android:attr/selectableItemBackground"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/report"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_report"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:id="@+id/layout_user_log"
+            android:foreground="?android:attr/selectableItemBackground"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/log"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/text_log"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</LinearLayout>

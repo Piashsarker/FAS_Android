@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FAS</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="btn_login_text">Login</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="text_control_panel">Control Panel</string>
+    <string name="text_report">See Report</string>
+    <string name="text_log">User Log</string>
+    <string name="device_name">Sensor 1</string>
+    <string name="time">8.07 PM</string>
+    <string name="update_request">Update Request</string>
+    <string name="request">OFF</string>
+    <string name="date">Date</string>
+    <string name="date_example">30 March 2017</string>
+    <string name="status">Status</string>
+    <string name="active">Active</string>
+    <string name="err_msg_email">Enter Correct Email</string>
+    <string name="err_msg_password">Password Can Not Be Empty</string>
+    <string name="refresh">Refresh</string>
+</resources>
